@@ -1,0 +1,80 @@
+<html>
+
+<head>
+  <link
+    rel="shortcut icon"
+    href="https://static-media-prod-cdn.itsre-sumo.mozilla.net/static/sumo/img/favicon-32x32.png"
+  />
+  <title>New tab</title>
+  <style>
+    /* nordtheme.com */
+    :root {
+      --nord0: #2e3440;
+      --nord1: #3b4252;
+      --nord2: #434c5e;
+      --nord3: #4c566a;
+      --nord4: #d8dee9;
+      --nord5: #e5e9f0;
+      --nord6: #eceff4;
+      --nord7: #8fbcbb;
+      --nord8: #88c0d0;
+      --nord9: #81a1c1;
+      --nord10: #5e81ac;
+      --nord11: #bf616a;
+      --nord12: #d08770;
+      --nord13: #ebcb8b;
+      --nord14: #a3be8c;
+      --nord15: #b48ead;
+    }
+
+    @media (prefers-color-scheme: light) {
+      body {
+        background: var(--nord4);
+        color: var(--nord0);
+      }
+
+      a,
+      a:hover {
+        color: var(--nord0);
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: var(--nord0);
+        color: var(--nord4);
+      }
+
+      a,
+      a:hover {
+        color: var(--nord4);
+      }
+    }
+
+    body {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-sizing: border-box;
+      font-size: .75em;
+      height: 100%;
+      line-height: 1.8;
+      margin: 0;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    a,
+    a:hover {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <script lang="javascript">
+    if (location.hash.includes('photo')) {
+      document.body.style.backgroundImage = 'url("https://picsum.photos/1920/1080?grayscale")';
+    }
+  </script>
+</body>
+</html>
