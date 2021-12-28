@@ -1,6 +1,8 @@
 # NORDtab
 
-The simplest `about:newtab` page I could make: just a Nord colored blank page. Using a `#photo` location hash makes it pull a random gray-scale photo from [Unsplash](https://unsplash.com). Hosted at [nordix.blue](https://nordix.blue#photo) courtesy of [GitHub Pages](https://pages.github.com/).
+The simplest `about:newtab` page I could make: just a Nord colored blank page. Using a `#photo` location hash makes it pull a random gray-scale photo from [Unsplash](https://unsplash.com).
+
+Hosted at [nordix.blue](https://nordix.blue#photo) courtesy of [GitHub Pages](https://pages.github.com/).
 
 ## Why?
 
