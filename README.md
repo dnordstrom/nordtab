@@ -1,10 +1,10 @@
 # NORDtab
 
-The simplest `about:newtab` page I could make: just a Nord colored blank page. Using `#photo` location hash instead shows a random gray-scale photo from [Unsplash](https://unsplash.com).
+The simplest `about:newtab` page I could make: just a Nord colored blank page. Using a `#photo` location hash makes it pull a random gray-scale photo from [Unsplash](https://unsplash.com).
 
 ## Why?
 
-Because I use the keyboard to navigate either with [Tridactyl](https://github.com/tridactyl/tridactyl) or the URL bar so I want a simple page with no buttons, but add-ons don't work on `about:newtab` and `about:blank` requires `userContent.css` to change colors which is not very portal.
+Because I use the keyboard to navigate either with [Tridactyl](https://github.com/tridactyl/tridactyl) or the URL bar so I want a simple page with no buttons, but add-ons don't work on `about:newtab` and `about:blank` requires `userContent.css` to change colors which is not very portable.
 
 Mozilla doesn't let you set a URL for new tabs, only for windows. Tridactyl sets one by default to make the add-on work on new tabs. It doesn't look very nice, but you can change it using the `newtab` setting via configuration file or `set newtab [URL]`.
 
